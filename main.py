@@ -4,7 +4,6 @@
 # Version 1.0
 from sys import argv, exit
 from time import sleep
-import this
 import praw
 from praw.objects import Redditor, Submission
 
