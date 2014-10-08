@@ -57,5 +57,7 @@ def main(params):
     finally:
         print "All Done! %sd %d submissions or comments. " % (rav.vote_type, rav.count)
 
+    return 0
+
 if __name__ == "__main__":
     exit(main(argv[1:]))
